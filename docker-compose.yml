@@ -1,0 +1,31 @@
+services:
+  tor:
+    user: "1000:1000"
+    build:
+      context: .
+      dockerfile: Dockerfile.tor
+    container_name: weechat_tor_tor
+    volumes:
+      - ./tor-data:/var/lib/tor:Z
+      - ./tor/torrc:/etc/tor/torrc:ro,Z
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "sh", "-c", "netstat -tln | grep -q ':9050'"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  weechat:
+    build: .
+    container_name: weechat_tor_client
+    volumes:
+      - ./weechat-data:/home/weechat
+      - ./weechat-certs:/home/weechat/.weechat/certs:ro
+    stdin_open: true
+    tty: true
+    depends_on:
+      tor:
+        condition: service_healthy
+    restart: unless-stopped
+

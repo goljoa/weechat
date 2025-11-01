@@ -1,0 +1,11 @@
+# Écouter sur toutes les interfaces du container (réseau Docker interne uniquement)
+# Le port n'est pas exposé à l'extérieur du réseau Docker
+SocksPort 0.0.0.0:9050
+DataDirectory /var/lib/tor
+RunAsDaemon 0
+Log notice stdout
+
+# Sécurité renforcée
+DisableDebuggerAttachment 0
+SafeLogging 1
+

@@ -1,0 +1,5 @@
+FROM alpine:3.20
+RUN apk add --no-cache tor
+EXPOSE 9050
+CMD ["tor", "-f", "/etc/tor/torrc"]
+

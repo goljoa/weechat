@@ -1,0 +1,36 @@
+# Données runtime Tor
+tor-data/*
+!tor-data/.gitkeep
+
+# Configuration et logs WeeChat (contient potentiellement des mots de passe, logs de chat)
+weechat-data/*
+!weechat-data/.gitkeep
+
+# Certificats privés et clés
+weechat-certs/*.pem
+weechat-certs/*.key
+weechat-certs/*.crt
+weechat-certs/*.p12
+weechat-certs/*.pfx
+
+# Garder le dossier certs avec un .gitkeep
+!weechat-certs/.gitkeep
+
+# Fichiers de configuration potentiellement sensibles
+*.env
+.env.*
+secrets/
+
+# Logs
+*.log
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
