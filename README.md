@@ -1,6 +1,22 @@
 # WeeChat avec Tor - Container Docker
 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
+![Tor](https://img.shields.io/badge/Tor-7D4698?style=flat&logo=Tor-Browser&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 Configuration Docker pour utiliser WeeChat avec Tor pour l'anonymat sur IRC.
+
+## ⚠️ Avertissement
+
+Ce projet améliore significativement votre anonymat sur IRC, mais **ne garantit pas l'anonymat absolu**.
+
+- ✅ Tout le trafic réseau passe par Tor
+- ✅ Isolation dans des containers Docker
+- ⚠️ Votre comportement et style d'écriture peuvent vous identifier
+- ⚠️ Des erreurs de configuration peuvent révéler votre identité
+- ⚠️ Les métadonnées (fuseau horaire, patterns d'activité) peuvent être révélatrices
+
+**Utilisez ce projet de manière responsable et légale.**
 
 ## Architecture
 
