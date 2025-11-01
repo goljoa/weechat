@@ -18,6 +18,16 @@ Ce projet améliore significativement votre anonymat sur IRC, mais **ne garantit
 
 **Utilisez ce projet de manière responsable et légale.**
 
+## 📚 Documentation
+
+> **[📑 Index complet de la documentation](DOCS_INDEX.md)** - Guide de navigation dans tous les documents
+
+**Essentiels** :
+- **[QUICKSTART.md](QUICKSTART.md)** - Guide de démarrage rapide
+- **[IRC_GUIDE.md](IRC_GUIDE.md)** - 📖 **Manuel complet IRC et WeeChat** (recommandé pour les débutants)
+- **[SECURITY.md](SECURITY.md)** - Politique de sécurité et bonnes pratiques
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guide de contribution
+
 ## Architecture
 
 - **Service Tor** : Proxy SOCKS5 sur le port 9050 (interne au réseau Docker)

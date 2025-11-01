@@ -1,5 +1,7 @@
 # Guide de démarrage rapide
 
+> **Nouveau sur IRC ?** Consultez le [**Guide Complet IRC et WeeChat**](IRC_GUIDE.md) pour un tutoriel détaillé pas à pas.
+
 ## Installation
 
 ### Prérequis
@@ -172,7 +174,8 @@ rm -rf tor-data/* weechat-data/* weechat-certs/*.pem
 
 ## Prochaines étapes
 
-- Lisez [README.md](README.md) pour plus de détails
+- 📖 **[IRC_GUIDE.md](IRC_GUIDE.md)** - Lisez le manuel complet IRC et WeeChat (fortement recommandé)
+- Lisez [README.md](README.md) pour plus de détails sur le projet
 - Consultez [SECURITY.md](SECURITY.md) pour les bonnes pratiques de sécurité
 - Générez des certificats clients si nécessaire (voir [weechat-certs/README.md](weechat-certs/README.md))
 
