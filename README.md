@@ -20,7 +20,9 @@ Ce projet améliore significativement votre anonymat sur IRC, mais **ne garantit
 
 ## 📚 Documentation
 
-> **[📑 Index complet de la documentation](DOCS_INDEX.md)** - Guide de navigation dans tous les documents
+> **🎯 [Par où commencer ?](GETTING_STARTED.md)** - Choisissez votre parcours selon votre profil
+>
+> **📑 [Index complet de la documentation](DOCS_INDEX.md)** - Guide de navigation dans tous les documents
 
 **Essentiels** :
 - **[QUICKSTART.md](QUICKSTART.md)** - Guide de démarrage rapide
